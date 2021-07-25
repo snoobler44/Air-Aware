@@ -20,9 +20,6 @@ public class ForecastActivity extends AppCompatActivity {
         ArrayList<String> x_axis=new ArrayList<String>();
         ArrayList<String> y_axis=new ArrayList<String>();
 
-
-
-
         Double m;
         Double c;
 
