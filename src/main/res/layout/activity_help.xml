@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/keyscreen" />
+
+    <ImageView
+        android:id="@+id/pmlink"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="246dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="pmInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/readmore" />
+
+    <ImageView
+        android:id="@+id/ozonelink"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="ozoneInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/readmore" />
+
+    <ImageView
+        android:id="@+id/aqilink"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="731dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="aqiInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/readmore" />
+</androidx.constraintlayout.widget.ConstraintLayout>
